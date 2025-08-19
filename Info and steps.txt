@@ -1,0 +1,19 @@
+The objective of this project is to develop an automated Face Recognition and Attendance System that accurately detects and recognizes individuals for seamless attendance tracking. Using OpenCV, Tkinter, and Pandas, it eliminates manual effort by capturing face images, training a recognition model, and marking attendance in an Excel file while preventing duplicates. Key Features
+
+1. User Registration: Captures student details and assigns a unique ID.
+2. Dataset Generation: Captures and stores face images.
+3. Model Training: Trains a LBPH-based classification model.
+4. Face Detection & Recognition: Detects faces and recognizes registered users.
+5. Attendance Marking: Records attendance with date and time.
+
+Steps to use:
+1. Open the .ipynb file named as 'attendance' in jupyter notebook and install the required libraries.
+2. Then run the code and fill your name in the empty bar and click on generate dataset.
+3. Wait for some time and the camera will automatically start capturing the images of your face. Do not move your face much else the camera will not be able to capture the images.
+4. Do not close the program after this capture images of a 2-3 people to enumerate the dataset and click on train model
+5. After sometime the model would be trained and then click on detect faces.
+6. A similar window to generate dataset will open and if any faces are detected with a confidence level > 50% it will show on the screen and the attendance would automatically be marked in an excel sheet with the current time stamp.
+
+MADE BY:
+Prabhsimrat Singh (102317135)
+Lavish Gupta(102317132)
